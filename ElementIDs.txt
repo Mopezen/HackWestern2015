@@ -1,0 +1,4 @@
+adType1,postAdForm.adType,radio,I am offering
+adType2,postAdForm.adType,radio,I am offering 
+priceType1,postAdForm.priceType,radio,NULL
+priceAmount,postAdForm.priceAmount,text,NULL
