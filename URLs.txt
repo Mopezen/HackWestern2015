@@ -1,2 +1,5 @@
 Log-in page:	https://www.kijiji.ca/t-login.html
 Books:		https://www.kijiji.ca/p-post-ad.html?categoryId=109
+MyKijiji:	https://www.kijiji.ca/m-my-ads.html?uli=true
+Pending Ads:	https://www.kijiji.ca/m-my-ads.html?uli=true#/PENDING#PENDING
+	For testing

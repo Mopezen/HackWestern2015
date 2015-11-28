@@ -29,10 +29,17 @@ browser.document.getElementById("forsaleby_s").checked := true
 browser.document.getElementById("moreinfo_s").selectedIndex := 1
 browser.document.getElementById("postad-title").value := "Eng Text Book"
 
-browser.document.getElementById("ImageUploadButton").click()
 ; TODO
 ; Need to hide img upload from user
 ; Need to allow appropriate delay for imgs to load before submitting add
+; browser.document.getElementById("ImageUploadButton").click()
+
+browser.document.getElementById("pstad-descrptn").value := "First year calculus text book"
+browser.document.getElementById("pstad-map-address").value := "N6G-0K2"
+browser.document.getElementById("PhoneNumber").value := "519-854-1346"
+browser.document.getElementById("pstad-email").value := "jzapata110391@live.com"
+
+; browser.document.getElementsByClassName("button-task post-ad-button")[0].click()
 
 return
 ; end of 'main'
