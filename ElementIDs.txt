@@ -1,4 +1,17 @@
 adType1,postAdForm.adType,radio,I am offering
-adType2,postAdForm.adType,radio,I am offering 
+adType2,postAdForm.adType,radio,I am asking 
 priceType1,postAdForm.priceType,radio,NULL
 priceAmount,postAdForm.priceAmount,text,NULL
+priceType2,postAdForm.priceType,radio,Free
+priceType3,postAdForm.priceType,radio,Please Contact
+priceType4,postAdForm.priceType,radio,Swap/Trade
+forsaleby_s,postAdForm.attributeMap[forsaleby_s],radio,Owner
+forsaleby_s,postAdForm.attributeMap[forsaleby_s],radio,Business
+moreinfo_s,postAdForm.attributeMap[moreinfo_s],input select box,
+postad-title,postAdForm.title,text,NULL
+pstad-descrptn,postAdForm.description,textarea,NULL
+pstad-map-address,postAdForm.mapAddress,text,NULL
+html5_1a56j6vdh58a1vbtpfc1nsjnpk3,NULL,file,NULL
+YoutubeURL,postAdForm.youtubeVideoURL,text,NULL
+PhoneNumber,postAdForm.phoneNumber,text,NULL
+pstad-email,postAdForm.email,text,NULL
