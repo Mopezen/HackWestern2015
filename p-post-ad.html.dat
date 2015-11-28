@@ -1,0 +1,971 @@
+<!DOCTYPE html><!--[if lte IE 8]><html class="ie8"><![endif]-->
+<!--[if IE 9]><html class="ie9"><![endif]-->
+<!--[if gt IE 9]><!--><html><!--<![endif]-->
+<!--[if !IE]><!--><html><!--<![endif]-->
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script><link rel="SHORTCUT ICON" href="//ca.classistatic.com/static/V/1696.4/img/kijijiFavicon.ico" type="image/vnd.microsoft.icon"/>
+    <link rel="publisher" href="https://plus.google.com/+KijijiCanada" />
+    <meta property="og:site_name" content="Kijiji"/>
+    <meta property="og:country-name" content="Canada"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+<meta name="msvalidate.01" content="E03E7C8B4B4E1A0234A8D2042FD326E8" />
+
+<meta name='yandex-verification' content='79bdb66f55dcb3ee' />
+
+    <meta name="google" content="nositelinkssearchbox">
+
+    <meta http-equiv="content-language" content="en">
+
+    <meta property="og:type" content="website"/><meta property="og:description" content=""/><meta property="og:title" content="Kijiji Canada"/><link rel="stylesheet" type="text/css" href="//ca.classistatic.com/static/V/1696.4/css/master.css"/>
+        <link rel="stylesheet" type="text/css" href="//ca.classistatic.com/static/V/1696.4/css/page-post.css"/>
+    <link rel="stylesheet" type="text/css" href="//ca.classistatic.com/static/V/1696.4/css/item-promotion.css"/>
+    <link rel="stylesheet" type="text/css" href="//ca.classistatic.com/static/V/1696.4/css/date-picker.css"/>
+    <link rel="stylesheet" type="text/css" href="//ca.classistatic.com/static/V/1696.4/css/page-srp.css"/>
+    <link rel="stylesheet" type="text/css" href="//ca.classistatic.com/static/V/1696.4/css/page-item.css"/>
+    <link rel="stylesheet" type="text/css" href="//ca.classistatic.com/static/V/1696.4/fontello/kj-icons.css"/>
+    <link rel="stylesheet" type="text/css" href="//ca.classistatic.com/static/V/1696.4/css/sprites.css"/>
+    <!--[if lte IE 8]><script src="//ca.classistatic.com/static/V/1696.4/js/ie8.js"></script><![endif]-->
+    <script src="//cdn.optimizely.com/js/2217630246.js"></script>
+<script type="text/javascript">
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+
+            (function () {
+                var gads = document.createElement("script");
+                gads.async = true;
+                gads.type = "text/javascript";
+                var useSSL = "https:" == document.location.protocol;
+                gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+                var node = document.getElementsByTagName("script")[0];
+                node.parentNode.insertBefore(gads, node);
+            })();
+        </script>
+    <script type="text/javascript">
+    googletag.cmd.push(function() {
+        googletag.pubads().set("adsense_background_color", "FFFFFF");
+
+        
+    });
+</script>
+
+<script type="text/javascript">
+    googletag.cmd.push(function() {
+        
+        googletag.enableServices();
+    });
+</script>
+<!-- Google Tag Manager -->
+<script>
+var dataLayer = [{"p":{"t":"PostAd","pl":"Wildebeest","v":"1696.4","lng":"en_CA","ua":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"},"c":{"c":{"id":109,"n":"books"},"l0":{"id":0,"n":"Classifieds"},"l1":{"id":10,"n":"buy and sell"},"l2":{"id":109,"n":"books"}},"l":{"c":{"id":1700214,"n":"London"},"l0":{"id":0,"n":"Canada"},"l1":{"id":9004,"n":"Ontario"},"l2":{"id":1700214,"n":"London"}},"u":{"li":false,"tg":{"ptg":"","stg":"VliAdRefresh=0;HpGptAsync=SyncGPT;CasBsnLbl=show;dataLayerTracking=ON;SRPCAS=ON;SRPeCN=ON;Kurudi=OFF"}},"d":{"ck":"4a28c2557b280a6421a6b3de5853e487a163a8bfefef68cbce5948404b99e02a499491ab11bfed26edfc06335c42b623360397fe2321d37ecc50636356aea2d3","ua":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"},"o":{"ti":1,"src":"POST_AD","oi":[{"c":{"c":{"id":109,"n":"books"},"l0":{"id":0,"n":"Classifieds"},"l1":{"id":10,"n":"buy and sell"},"l2":{"id":109,"n":"books"}},"l":{"c":{"id":1700214,"n":"London"},"l0":{"id":0,"n":"Canada"},"l1":{"id":9004,"n":"Ontario"},"l2":{"id":1700214,"n":"London"}}}]}}];
+    (function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+    var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-W4V6');
+</script>
+<!-- End Google Tag Manager --><script type="text/javascript" charset="utf-8">
+  (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+   arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+   O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+  e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+</script></head>
+
+<body id="PagePostAd">
+<script src="//ca.classistatic.com/static/V/1696.4/dependencies/jquery/jquery.min.js"></script>
+<script src="//ca.classistatic.com/static/V/1696.4/js/bootstrap.js"></script>
+<script type="text/javascript">
+    var pageTrackingIdentifier = 'Post Ad';
+    var gaEventLabel = 'L1Cat=buy and sell;L2Cat=books;L1Location=Canada;L2Location=London';
+</script><div id="MainContainer">
+    <header>
+        <div id="TopHeader" class="feature">
+                <div class="anniversary-10">
+        <div id="HeaderLeft">
+            <a href="/h-london/1700214" id="Logo" target="_self"></a>
+            <div id="AdCount">
+                Over <span id="ad-count-number">7,169,335</span><br>Free Local Classifieds</div>
+        </div>
+
+        <div id="HeaderRight">
+            <ul id="HeaderRightTop">
+                <li><a id="SignInLink" href="/t-login.html" rel="nofollow">Sign In</a></li>
+                        <li><a id="register" href="/t-user-registration.html" rel="nofollow">Register</a></li>
+                    <li><a href="http://help.kijiji.ca/helpdesk/" rel="nofollow">Help Desk</a></li>
+
+                </ul>
+
+            <div id="HeaderRightBottom">
+                <a id="PostAdLink" class="button-open post-ad-begin first active" href="/p-select-category.html" data-btn-loc="header" rel="nofollow">
+                    Post Ad <strong>FREE</strong></a><a class="button-header-nav last" href="/m-my-ads.html" rel="nofollow">
+                My Kijiji</a>
+            </div>
+        </div>
+
+        </div>
+        <!--[if lte IE 8]>
+        <div id="Ie8Sunset">
+            <h3>Your browser is out of date. Change to a modern browser for a more secure web experience.</h3>
+            <ul>
+                <li class="moz"><a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank"><h4>Mozilla Firefox <span>Download Here</span></h4></a></li>
+                <li class="chrome"><a href="https://www.google.com/chrome/browser/desktop/" target="_blank"><h4>Google Chrome<span>Download Here</span></h4></a></li>
+                <li class="ie"><a href="http://windows.microsoft.com/en-ca/internet-explorer/download-ie" target="_blank"><h4>Internet Explorer<span>Download Here</span></h4></a></li>
+            </ul>
+        </div>
+        <![endif]-->
+</div>
+<div id="HeaderBar">
+            <div class="location-only">
+                        My Location<span>London</span>
+                    </div>
+                </div>
+    </header>
+    <div id="MessageContainer">
+        </div>
+
+    <div class="layout-0 fixed-width bottom-space ">
+        <h1>
+            Post Your Ad<span> -
+                    Kijiji is absolutely <strong>FREE</strong> to use</span>
+                </h1>
+
+        <hr>
+
+        <div class="container-forms">
+
+<form id="PostAdMainForm" action="/p-submit-ad.html" method="post"><input type="hidden" id="" name="ca.kijiji.xsrf.token" value="1448684226927.4e09cb3bac25626c8c6e019471d0721b" />
+<div class="container-info">
+    <input type="hidden" name="uuid" value="">
+    <input type="hidden" id="pstad-geourl" value="http://www.google.com/jsapi?"/>
+    <input id="postad-id" name="adId" type="hidden" value=""/><input id="GalleryImageIndexField" name="postAdForm.galleryImageIndex" type="hidden" value=""/><input type="hidden" id="pstad-dflt-latitude" value="42.986889">
+    <input type="hidden" id="pstad-dflt-longitude" value="-81.246208">
+    <input id="pstad-lat" name="postAdForm.geocodeLat" type="hidden" value="0.0"/><input id="pstad-lng" name="postAdForm.geocodeLng" type="hidden" value="0.0"/><input id="pstad-city" name="postAdForm.city" type="hidden" value=""/><input id="pstad-province" name="postAdForm.province" type="hidden" value=""/><input id="categoryId" name="categoryId" type="hidden" value="109"/><h2>
+        <div class="number">1</div>Ad Details<div class="add-asterisk"> = mandatory fields</div>
+    </h2>
+
+    <ul class="post-ad-layout">
+        <li class="category">
+            <label>Select Category:</label>
+
+            <div class="form-section">
+                    <strong>
+                            buy and sell</strong>
+                    
+                        &gt;
+                    <strong>
+                            books</strong>
+                    <a href="/p-select-category.html"
+                       id="PostAdChangeCategory" class="post-ad-begin" data-btn-loc="pst-chng-cat">Change category</a>
+                </div>
+        </li>
+
+        <li>
+                <label for="postAdForm.adType" class="add-asterisk">Ad Type:</label><div class="form-section">
+                    <label>
+                            <input id="adType1" name="postAdForm.adType" type="radio" value="OFFER" checked="checked"/>I am offering<span class="example"> - You are offering an item for sale</span>
+                        </label>
+                    <label>
+                            <input id="adType2" name="postAdForm.adType" type="radio" value="WANTED"/>I want<span class="example"> - You want to buy an item</span>
+                        </label>
+                    </div>
+            </li>
+        <li>
+                <a name="postAdForm.priceAmount"></a>
+                <label for="priceAmount" class="add-asterisk">Price:</label><div class="form-section">
+                    <div class="float-left">
+                                    <input id="priceType1" name="postAdForm.priceType" class="price-button" checked="checked" type="radio" value="FIXED" checked="checked"/>$ <input id="priceAmount" name="postAdForm.priceAmount" data-dependent-change="required,disabled,focus,clear" data-type="price" data-dependent="true" class="smaller" data-max="99999999.99" data-dependent-on="#priceType1" type="text" value="" maxlength="11"/></div>
+                                <label>
+                                    <input id="priceType2" name="postAdForm.priceType" class="price-button" type="radio" value="GIVE_AWAY"/>Free</label>
+                            <label>
+                                    <input id="priceType3" name="postAdForm.priceType" class="price-button" type="radio" value="CONTACT"/>Please Contact</label>
+                            <label>
+                                    <input id="priceType4" name="postAdForm.priceType" class="price-button" type="radio" value="SWAP_TRADE"/>Swap / Trade</label>
+                            <div class="field-message add-clear" data-for="priceAmount"></div>
+                </div>
+            </li>
+        <!-- forsaleby_s -->
+    <a name="postAdForm.attributeMap[forsaleby_s]"></a>
+        <li ">
+                    <!-- forsaleby_s -->
+                    <label class="add-asterisk  " for="forsaleby_s">For Sale By:</label>
+
+<div class="form-section">
+    <label>
+                                    <input id="forsaleby_s" name="postAdForm.attributeMap[forsaleby_s]" name="postAdForm.attributeMap[forsaleby_s]" req="req" type="radio" value="ownr"/>Owner</label>
+                        <label>
+                                    <input id="forsaleby_s" name="postAdForm.attributeMap[forsaleby_s]" name="postAdForm.attributeMap[forsaleby_s]" req="req" type="radio" value="delr"/>Business</label>
+                        <div class="field-message add-clear hidden-for-ct" data-for="forsaleby_s"></div>
+
+    </div></li>
+            <!-- moreinfo_s -->
+    <a name="postAdForm.attributeMap[moreinfo_s]"></a>
+        <li ">
+                    <!-- moreinfo_s -->
+                    <label class="add-asterisk  " for="moreinfo_s">More Info:</label>
+
+<div class="form-section">
+    <select id="moreinfo_s" name="postAdForm.attributeMap[moreinfo_s]" class="add-asterisk  " req="req"><option value="">- Select -</option>
+                            <option value="textbooks" >Textbooks</option>
+                            <option value="magazines" >Magazines</option>
+                            <option value="children-young-adult" >Children & Young Adult</option>
+                            <option value="comics-graphic-novels" >Comics & Graphic Novels</option>
+                            <option value="fiction" >Fiction</option>
+                            <option value="non-fiction" >Non-fiction</option>
+                            <option value="other" >Other</option>
+                            </select><div class="field-message add-clear hidden-for-ct" data-for="moreinfo_s"></div>
+
+    </div></li>
+            <li>
+            <a name="postAdForm.title"></a>
+            <label for="postad-title" class="add-asterisk">Ad Title:</label><div class="form-section">
+                <input id="postad-title" name="postAdForm.title" req="req" type="text" value="" maxlength="64"/><span class="field-message" data-for="postad-title"></span>
+
+                <p>
+                            <label data-feature-name="Urgent">
+                                <input type="checkbox" id="UrgentInDetails" class="calculate-total"  value="true"/>
+                                <span class="urgent-title">
+                                    URGENT</span>
+                                <span class="price" data-price="8.50">
+                                    7 days - $8.50</span>
+                            </label>
+                        </p>
+
+                        <p>Let others know you are looking for quick responses.&nbsp;<a href="http://help.kijiji.ca/helpdesk/basics/urgent-reduced-feature">Learn More</a></p>
+                    </div>
+        </li>
+
+        <li>
+            <a name="postAdForm.description"></a>
+            <label for="pstad-descrptn" class="add-asterisk">Description:</label><div class="form-section">
+                <textarea id="pstad-descrptn" name="postAdForm.description" spellcheck="false" maxlength="61000" data-minlength="10" req="req"></textarea><span class="field-message" data-for="pstad-descrptn"></span>
+
+                </div>
+        </li>
+
+        <input type="hidden" id="pstad-loctnid" name="postAdForm.locationId" value="1700214"/>
+        <li>
+                            <a name="postAdForm.mapAddress"></a>
+                            <label for="pstad-map-address" class="add-asterisk">Address:</label><div class="form-section">
+                                <input id="pstad-map-address" name="postAdForm.mapAddress" req="req" type="text" value=""/><span class="field-message" data-for="pstad-map-address"></span>
+                                <p class="message">Enter your postal code and/or street address above.</p>
+                            </div>
+                        </li>
+                    </ul>
+</div>
+
+<div class="container-info">
+    <h2>
+        <div class="number">2</div>Media</h2>
+    <ul class="post-ad-layout">
+        <li class="jsonly">
+            <label>Images:</label>
+
+            <div id="ImageUpload" class="form-section">
+                <div class="file-input-wrapper">
+                    <button id="ImageUploadButton" type="button" class="button-update-cancel short file-upload-button ">
+                                Select Images</button>
+                            <input type="hidden" name="file" id="FileUploadInput" >
+                        <span class="field-message" data-for="FileUploadInput"></span>
+
+                    <p class="message"><strong>Get at least twice the number of replies by uploading images</strong><br>Max 10 images. File size can be 15 MB per image with max dimension 6500x6500. For bitmap(.bmp) images, max file size is 4MB.</p>
+
+                    <p class="image-select">Select a "MAIN" image :</p>
+                    <ol id="UploadedImages">
+                        </ol>
+                </div>
+
+                <input type="hidden" name="images">
+                </div>
+        </li>
+
+        <li>
+                <label for="YoutubeURL">YouTube Video:</label><div class="form-section">
+                    <input id="YoutubeURL" name="postAdForm.youtubeVideoURL" type="text" value=""/><span class="field-message" data-for="YoutubeURL"></span>
+                    <p class="message">Add a YouTube video to your ad.</p>
+
+                    <p class="example">Example: http://www.youtube.com/watch?v=&lt;your video id&gt;</p>
+                </div>
+            </li>
+        <li>
+                <label for="PostWebsiteURL">Website URL:</label>
+
+                <div class="form-section">
+
+                    <label>
+                            <input type="checkbox" id="PostWebsite"
+                                   class="calculate-total" />Link to your website - $5.00</label>
+                    <input id="PostWebsiteURL" name="featuresForm.websiteUrl" type="text" disabled="disabled" value=""/><div class="field-message" data-for="PostWebsiteURL"></div>
+
+                    </div>
+            </li>
+        </ul>
+</div>
+
+<div class="container-info">
+    <h2>
+        <div class="number">3</div>Contact Information<div class="add-asterisk"> = mandatory fields</div>
+    </h2>
+    <ul class="post-ad-layout">
+
+            <li>
+                <a name="postAdForm.phoneNumber"></a>
+                <label for="postAdForm.phoneNumber">Phone Number:</label><div class="form-section">
+                    <input id="PhoneNumber" name="postAdForm.phoneNumber" x-autocompletetype="phone-full" type="text" value="" maxlength="40"/><p class="message">Your phone number will show up on your Ad.</p>
+                    <span class="field-message" data-for="PhoneNumber"></span>
+
+                    </div>
+            </li>
+        <ecg/>
+            <li>
+                    <a id="email" name="postAdForm.email"></a>
+                    <label for="pstad-email" class="add-asterisk">Email:</label><div class="form-section">
+                        <input id="pstad-email" name="postAdForm.email" x-autocompletetype="email" data-type="email" req="req" type="text" value=""/><span class="field-message" data-for="pstad-email"></span>
+                        <p class="message">Your email address will not be shared with others.</p>
+                    </div>
+                </li>
+            </ul>
+</div>
+
+<div class="container-info contains-insets contains-inset-right">
+                <div class="inset-right">
+                    <table id="RecommendedFeatureContainer" >
+    <tr>
+        <td>
+            <div id="RecommendedFeatureGallery"
+                    class="cycle-slideshow"
+                    data-cycle-prev="#CtaPrevRecommendedFeature"
+                    data-cycle-next="#CtaNextRecommendedFeature"
+                    data-cycle-pager="#RecommendedFeatureGalleryPager"
+                    data-cycle-log=âfalse"
+                    data-cycle-timeout="0"
+                    data-cycle-center-vert="true"
+                    data-cycle-slides=".recommended-feature">
+
+                    <a title="Previous" href="javascript:void(0);" id="CtaPrevRecommendedFeature" class="arrow-prev-grey hide-text">Previous</a>
+                    <a title="Next" href="javascript:void(0);" id="CtaNextRecommendedFeature" class="arrow-next-grey hide-text">Next</a>
+                    <div class="recommended-feature">
+                        <h3>Recommended Feature</h3>
+                        <a title="Click to add this feature."
+                           href="javascript: void(0);"
+                           data-target="Top">
+
+                            <div class="promote-icon top large"></div>
+                            +&nbsp;Add a Top Ad</a>
+                        <p>Get up to 9 times more views than regular ads.</p>
+                    </div>
+                <div class="recommended-feature">
+                        <a title="Click to add this feature."
+                           href="javascript: void(0);"
+                           data-target="Hpg">
+
+                            <div class="promote-icon hpg large"></div>
+                            +&nbsp;Add a Homepage Gallery Ad</a>
+                        <p>Get on average 150,000 page impressions per day by appearing in a prime position on our homepage.</p>
+                    </div>
+                <div class="recommended-feature">
+                        <a title="Click to add this feature."
+                           href="javascript: void(0);"
+                           data-target="Urgent">
+
+                            <div class="promote-icon urgent large"></div>
+                            +&nbsp;Add an Urgent Ad</a>
+                        <p>Let others know you are looking for quick responses.</p>
+                    </div>
+                </div>
+
+            <div id="RecommendedFeatureGalleryPager" class="cycle-pager"></div>
+            </td>
+    </tr>
+</table></div>
+
+                <div class="inset-main-left">
+        <h2>
+            <div class="number">4</div>Promote My Ad</h2>
+
+        <table class="promotions">
+            <tr>
+                <th class="left">Features</th>
+                <th>Days</th>
+                <th class="right">Total</th>
+            </tr>
+
+            <tr class="select-feature " data-feature-name="Urgent">
+                    <td class="left">
+                                <label>
+                                    <input type="checkbox" id="UrgentInPromoteMyAds"
+                                           name="featuresForm.urgent" value="true"
+                                           class="price calculate-total"
+                                           data-price="8.50" 
+                                            />
+
+                                    <div class="promote-icon urgent"></div>
+
+                                    <span class="feature-name">Urgent Ad</span>
+                                </label>
+                                <span class="tooltip-trigger icon"
+                                          data-content="ToolTipurgent">i</span>
+                                    <span class="tooltip-content" id="ToolTipurgent">Let others know you are looking for quick responses.
+                                        &nbsp;
+                                        <a href="http://help.kijiji.ca/helpdesk/basics/urgent-reduced-feature" target="_blank">
+                                            Learn&nbsp;More</a>
+                                        </span>
+                                </td>
+                        <td class="days">7 days</td>
+                            <td class="right">
+                                    <div class="price" data-price="8.50">$8.50</div>
+                                    <input type="hidden" class="counters" value="8.50">
+                                </td>
+                            </tr>
+            <tr class="select-feature " data-feature-name="Top">
+                    <td class="left">
+                                <label>
+                                    <input type="checkbox" id="TopAdInPromoteMyAds"
+                                           name="featuresForm.topAd" value="true"
+                                           class="price calculate-total"
+                                           data-price="4.25" 
+                                            />
+
+                                    <div class="promote-icon top"></div>
+
+                                    <span class="feature-name">Top Ad</span>
+                                </label>
+                                <span class="tooltip-trigger icon"
+                                          data-content="ToolTiptop">i</span>
+                                    <span class="tooltip-content" id="ToolTiptop">Reach more buyers by having your Ad in the top section of its category for 3, 7, or 30 days.
+                                        &nbsp;
+                                        <a href="http://help.kijiji.ca/helpdesk/basics/top-ad-feature" target="_blank">
+                                            Learn&nbsp;More</a>
+                                        </span>
+                                </td>
+                        <td class="days">
+                                    <select name="featuresForm.topAdDuration" class="day-selector calculate-total">
+                                <option value="3" >3 days</option>
+                                <option value="7" selected="selected">7 days</option>
+                                <option value="30" >30 days</option>
+                                </select>
+                                    </td>
+                                <td class="right">
+                                <div class="price" data-price="7.25}">
+                                        $7.25</div>
+                                    <input type="hidden" class="counters" value="7.25">
+                                </td>
+                                </tr>
+            <tr class="select-feature " data-feature-name="Hpg">
+                    <td class="left">
+                                <label>
+                                    <input type="checkbox" id="HomepageGalleryInPromoteMyAds"
+                                           name="featuresForm.homepageGallery" value="true"
+                                           class="price calculate-total"
+                                           data-price="25.00" 
+                                            />
+
+                                    <div class="promote-icon hpg"></div>
+
+                                    <span class="feature-name">Homepage Gallery</span>
+                                </label>
+                                <span class="tooltip-trigger icon"
+                                          data-content="ToolTiphpg">i</span>
+                                    <span class="tooltip-content" id="ToolTiphpg">Have your Ad be seen on the Kijiji homepage by thousands of people every day for a week.
+                                        &nbsp;
+                                        <a href="http://help.kijiji.ca/helpdesk/basics/homepage-gallery-feature" target="_blank">
+                                            Learn&nbsp;More</a>
+                                        </span>
+                                </td>
+                        <td class="days">7 days</td>
+                            <td class="right">
+                                    <div class="price" data-price="25.00">$25.00</div>
+                                    <input type="hidden" class="counters" value="25.00">
+                                </td>
+                            </tr>
+            <tr class="select-feature " data-feature-name="Url">
+                    <td class="left">
+                                <label>
+                                    <input type="checkbox" id="WebsiteInPromoteMyAds"
+                                           name="featuresForm.websiteFeature" value="true"
+                                           class="price calculate-total"
+                                           data-price="5.00" 
+                                            />
+
+                                    <div class="promote-icon url"></div>
+
+                                    <span class="feature-name">Website URL</span>
+                                </label>
+                                <span class="tooltip-trigger icon"
+                                          data-content="ToolTipurl">i</span>
+                                    <span class="tooltip-content" id="ToolTipurl">Link to your website.</span>
+                                </td>
+                        <td class="days">60 days</td>
+                            <td class="right">
+                                    <div class="price" data-price="5.00">$5.00</div>
+                                    <input type="hidden" class="counters" value="5.00">
+                                </td>
+                            </tr>
+            <tr class="total">
+                <td colspan="3">
+                    Total Price:&nbsp;
+                    <span id="TotalPrice">$0.00</span>
+                </td>
+            </tr>
+        </table>
+
+        </div> <div class="clear"></div>
+        </div>
+<p class="small-print">
+                By posting your ad, you are agreeing to our <a href="http://help.kijiji.ca/helpdesk/policies/kijiji-terms-of-use" target="_blank">terms of use</a>, <a href="http://help.kijiji.ca/helpdesk/policies/kijiji-privacy-policy" target="_blank">privacy policy</a> and <a href="http://help.kijiji.ca/helpdesk/policies/" target="_blank">site policies</a>.<br>Please do not post duplicate ads. Use &#39;Promote My Ad&#39; above to gain more replies.</p>
+        <div class="post-ad-buttons">
+    <input type="hidden" name="submitType" value="saveAndCheckout" />
+            <button class="button-task post-ad-button" type="submit" name="saveAndCheckout">
+                Post Your Ad</button>
+        <button class="button-task secondary post-ad-button" id="PostAdPreview"><span class="zoom-in"></span>Preview</button>
+    </div>
+
+</form></div>
+
+</div>
+    <div class="modal" id="AddressForm">
+    <div class="header">
+        Error!<div class="close-modal close-x"></div>
+    </div>
+    <div class="body">
+        We could not locate the address you entered. Please choose from following suggestions:<div id="geocode_choice"></div>
+        <div class="actions">
+            <button id="AddressOK" class="button-task">OK</button>
+            <span class="button-divider">|</span>
+            <a href="#" class="close-modal">Cancel</a>
+        </div>
+    </div>
+</div>
+<div id="LayoutFooter">
+    <footer>
+        <div class="footer-top">
+            <section>
+                <ul>
+                    <li class="footer-title">Kijiji Information</li>
+                    <li><a href="http://help.kijiji.ca/helpdesk/policies/kijiji-terms-of-use" rel="nofollow">Terms of Use</a></li>
+                    <li><a href="http://help.kijiji.ca/helpdesk/policies/kijiji-privacy-policy" rel="nofollow">Privacy Policy</a></li>
+                    <li><a href="http://help.kijiji.ca/helpdesk/policies/" rel="nofollow">Posting Policy</a></li>
+                    <li><a href="http://www.kijijiforbusiness.ca" rel="nofollow">Advertise with Us</a></li>
+                    <li><span class="ad-choice">AdChoice</span></li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li class="footer-title">Kijiji Support</li>
+                    <li><a href="http://help.kijiji.ca/helpdesk/" rel="nofollow">Help Desk</a></li>
+                    <li><a href="http://help.kijiji.ca/helpdesk/safety/safety-at-kijiji" rel="nofollow">Online Safety Tips</a></li>
+
+                    </ul>
+            </section>
+            <section>
+                <ul>
+                    <li class="footer-title">Kijiji Autos</li>
+                    <li><a id="DealerSignInLink" href="/t-dealer-registration.html" rel="nofollow">New Dealer Signup</a></li>
+                    <li><a href="http://help.kijiji.ca/helpdesk/policies/why-use-kijiji-autos" rel="nofollow">Dealer Help Pages</a></li>
+                    <li><a href="http://kijijiforbusiness.ca/autos/kijiji-autos-blog/">Dealer Blog</a></li>
+                    </ul>
+            </section>
+            <section>
+                <ul>
+                    <li class="footer-title">Explore Kijiji</li>
+                    <li><a href="http://help.kijiji.ca/helpdesk/basics/benefits-of-registering" rel="nofollow">Kijiji Member Benefits</a></li>
+                    <li><a href="http://kijijiblog.ca/about-us/" rel="nofollow">About Kijiji</a></li>
+                    <li><a href="http://kijijiblog.ca/heroes/" rel="nofollow">Kijiji Success Stories</a></li>
+                    <li><a href="http://news.kijiji.ca/news/">Kijiji News & Press Releases</a></li>
+                </ul>
+            </section>
+            <section class="last">
+                <ul>
+                    <li class="footer-title">Frequently Asked Questions</li>
+                    <li><a href="http://help.kijiji.ca/helpdesk/basics/benefits-of-promoting-ads" rel="nofollow">How do I get people to see my Ad?</a></li>
+                    <li><a href="http://help.kijiji.ca/helpdesk/technical-issue/where-is-my-ad" rel="nofollow">Where is my Kijiji Ad? I can&#39;t find it.</a></li>
+                    <li><a href="http://help.kijiji.ca/helpdesk/basics/editing-my-ad" rel="nofollow">How can I change my Ad?</a></li>
+                    <li><a href="http://help.kijiji.ca/helpdesk/basics/deleting-my-ad" rel="nofollow">How do I delete my Ad?</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div id="FooterBottom">
+            <section>
+                <a class="link lnk-apple" href="https://itunes.apple.com/ca/app/kijiji-free-local-classifieds/id318979520" target="_blank" rel="nofollow"></a>
+            </section>
+            <section>
+                <a class="link lnk-google" href="https://play.google.com/store/apps/details?id=com.ebay.kijiji.ca" target="_blank" rel="nofollow"></a>
+            </section>
+            <section>
+                <a href="http://kijijiblog.ca/" target="_blank"><div class="link lnk-rss"></div><span class="link-label">Visit us on our Blog</span></a>
+            </section>
+            <section>
+                <a href="http://www.facebook.com/Kijiji.ca" target="_blank" rel="nofollow"><div class="link lnk-facebook"></div><span class="link-label">Friend us on Facebook</span></a>
+            </section>
+            <section class="last">
+                <a href="http://www.youtube.com/kijijicanadacorp" target="_blank" rel="nofollow"><div class="link lnk-youtube"></div><span class="link-label">Watch us on YouTube</span></a>
+            </section>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; 2015 eBay International AG. All rights reserved.</p>
+            <p class="fine-print">Google, Google Play, YouTube and other marks are trademarks of Google Inc.</p>
+        </div>
+    </footer>
+</div>
+</div>
+
+<div class="modal-overlay"></div>
+
+<script src="//ca.classistatic.com/static/V/1696.4/js/lib.js"></script>
+<script src="//ca.classistatic.com/static/V/1696.4/js/common.js"></script>
+<script type="text/javascript" src="/j-locations.json"></script>
+
+<!-- BUNDLE: _ --><!-- END BUNDLE: _ -->
+<!-- BUNDLE: gpt --><!-- END BUNDLE: gpt -->
+<script type="text/javascript">
+        var _gaq = _gaq || [];
+
+
+        
+                // Helper method to attach all events to both regional and global trackers
+                function gaqPush() {
+                    // modify the track event for domain level tracker
+                    var argArray = [].slice.apply(arguments);
+                    argArray[0] = 'siteTracker.' + argArray[0];
+                    _gaq.push(argArray);
+                }
+
+                _gaq.push(['siteTracker._setAccount', 'UA-11681763-3']);
+                _gaq.push(['siteTracker._setDomainName', '.kijiji.ca']);
+
+            
+
+        // Set Timeouts
+        gaqPush('_setAllowAnchor', true);
+        gaqPush('_setSessionCookieTimeout', 1800000); 
+        gaqPush('_setCampaignCookieTimeout', 15768000000); 
+        gaqPush('_setVisitorCookieTimeout', 63072000000); 
+
+        // Custom variables
+        gaqPush('_setCustomVar', 50, 'SiteVersion', 'Wildebeest', 3);
+        gaqPush('_setCustomVar', 1, 'pageType', 'PostAd', 3);
+        gaqPush('_setCustomVar', 2, 'l1Cat', '10_buy and sell', 3);
+        gaqPush('_setCustomVar', 3, 'l2Cat', '109_books', 3);
+        gaqPush('_setCustomVar', 4, 'l1Loc', '9004_Ontario', 3);
+        gaqPush('_setCustomVar', 6, 'loggedIn', 'No', 2);
+        gaqPush('_setCustomVar', 9, 'l2Loc', '1700214_London', 3);
+        gaqPush('_setCustomVar', 11, 'platformVersion', '1696.4', 3);
+        
+
+        gaqPush('_trackPageview', '/PostAd/Ontario%5ELondon/buy+and+sell%5Ebooks');
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+<script> type="text/javascript">
+        
+        setTimeout(function(){var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0022/4130.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+    </script>
+<script type="text/javascript" src="//ca.classistatic.com/static/V/1696.4/js/bottom/page-controller/my/watchlistPanel.js"></script>
+
+<div id="WatchlistContainer">
+        <header>
+            <div class="watchlist-star-small"></div>
+            <h3>My Watchlist (<span id="WatchListCount"></span>)</h3>
+            <div class="watchlist-tab-arrow"></div>
+        </header>
+        <div class="body">
+            <div class="content">
+                <div class="title">Recently Added:</div>
+                <div class="view-all">
+                    <a href="/m-watch-list.html">View all</a>
+                </div>
+                <div id="Watchlist">
+                    <ul id="WatchlistItems">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="//ca.classistatic.com/static/V/1696.4/js/lib/jshashtable-3.0.js"></script>
+            <script type="text/javascript" src="//ca.classistatic.com/static/V/1696.4/js/lib/jquery.numberformatter.js"></script>
+            <script type="text/javascript" src="//ca.classistatic.com/static/V/1696.4/js/lib/plupload/plupload.full.min.js"></script>
+            <script type="text/javascript" src="//ca.classistatic.com/static/V/1696.4/js/lib/jquery.form.js"></script>
+            <script type="text/javascript" src="//ca.classistatic.com/static/V/1696.4/js/common/address-validator.js"></script>
+            <script type="text/javascript" src="//ca.classistatic.com/static/V/1696.4/js/pages/post-item.js"></script>
+            <script type="text/javascript" src="//ca.classistatic.com/static/V/1696.4/js/admin/admin.js"></script>
+            <script type="text/javascript" src="//ca.classistatic.com/static/V/1696.4/js/admin/promote.js"></script>
+            <script src='//ca.classistatic.com/static/V/1696.4/js/templates/common/locationPickerList.js'></script>
+<script src='//ca.classistatic.com/static/V/1696.4/js/templates/common/message.js' ></script>
+<script src='//ca.classistatic.com/static/V/1696.4/js/templates/common/suggestionBox.js'></script>
+<script src='//ca.classistatic.com/static/V/1696.4/js/templates/common/groupValidationErrors.js'></script>
+<script src='//ca.classistatic.com/static/V/1696.4/js/templates/common/pageTipContent.js'></script>
+<script src='//ca.classistatic.com/static/V/1696.4/js/templates/common/pageTipContent.js'></script>
+
+<script type="text/javascript">
+        $(document).ready(function() {
+            Zoop.init({
+                data: {dl: dataLayer[0]},
+                config: {
+                    url: "/j-page-view.json",
+                    token:  "1448684226927.4e09cb3bac25626c8c6e019471d0721b"
+                }
+            });
+            Zoop.callEvent({
+                data:{}
+            });
+        });
+    </script>
+<script type="text/javascript">
+    Kj.extVars = {
+        validationMessages : {
+            group : "Please correct the errors below:",
+            req : "Please enter information above.",
+            email : "Please enter a valid email address.",
+            number : "Please enter a valid number.",
+            phone: '',
+            maxlength : "Sorry, our limit is {{max}} characters. Please shorten your message.",
+            minlength: "Input needs to be at least {{min}} characters.",
+            numberRange: "Please enter a value between {{min}} and {{max}}.",
+            numberMax: "Please enter a value no greater than {{max}}.",
+            numberMin: "Please enter a value of at least {{min}}.",
+            fileType: "Upload unsuccessful. File format not supported.",
+            fileSize: "Upload unsuccessful. File size limit exceeded.",
+            matching: "Input does not match above",
+            headline: "Please correct the following before continuing:",
+            creditcard: "Please correct your credit card number.",
+            radioButton: "Please select option above."
+        },
+        tracking : {
+            page: "Post Ad",
+            locId: "1700214",
+            catId: "174",
+            adOrUserNotFound: false
+        },
+        domainUrl : ".kijiji.ca",
+        locale: "en_CA",
+        facebook: {
+            requiredPermissions: "We require permission to access your email address, please try again with the correct permissions.",
+            error: "An error has occurred with Facebook login. Please try again."
+        },
+        isTestEnvironment: false,
+        staticUrl: "//ca.classistatic.com/static/V/1696.4/",
+        myAdsEndpoint: '/j-get-my-ads.json'
+        
+    };
+
+    $(document).ready(function() {
+        
+                Kj.Header.initChangeLocale({locale: "fr_CA", enableSearchNavigation: false});
+            
+        Kj.Header.initLocationPicker({
+            currentLocationId : 1700214,
+            lang : "en_CA",
+            disableRun : true,
+            ajaxUrl : "/k-location-selection.html",
+            altChangeLocationUrl: ""
+        });
+        
+        Kj.Tracking.initTrackCategorySelection();
+        Kj.Tracking.initTrackLocationSelection();
+        Kj.Tracking.initTrackAttributeSelection();
+        Kj.Tracking.initTrackPostAdBeginButtons();
+        Kj.Tracking.initTrackUserAccountActions({
+            isDealer: false
+        });
+        Kj.Tracking.initTrackAdActivation();
+        Kj.initHoverButtons();
+        Kj.initToggleButtons();
+        Kj.initHistoryBackLink();
+        Kj.Banners.BannerRendered.init();
+        Kj.initPrintLinks();
+        Kj.initAdChoice();
+
+        
+        Belen.Controller.Search.extVars = {
+            staticContentBaseUrl: '//ca.classistatic.com/static/V/1696.4',
+            editWatchlistAjaxUrl: '/j-edit-watchlist.json',
+            getWatchlistEntryAjaxUrl: '/j-get-watchlist-item.json',
+            watchlistTitleAdd: 'Click to add to My Watchlist',
+            watchlistTitleRemove: 'Saved to My Watchlist'
+        };
+        Belen.Controller.Search.Watchlist.init();
+
+        //Check for undefined override.
+        if (typeof undefined !== 'undefined') {
+            console.warn('HEY! Something is overwriting `undefined`. Don\'t ship!');
+        }
+    });
+</script>
+<noscript>
+    <style>
+        .jsonly {
+            display: none;
+        }
+        .jshidden {
+            display: block;
+        }
+    </style>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-W4V6"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+<script src="//ca.classistatic.com/static/V/1696.4/js/templates/post-item/geocodingModalListItem.js"></script>
+<script src="//ca.classistatic.com/static/V/1696.4/js/templates/post-item/uploadedImage.js"></script>
+<script src="//ca.classistatic.com/static/V/1696.4/js/templates/post-item/uploadingImage.js"></script>
+<script src="//ca.classistatic.com/static/V/1696.4/js/templates/post-item/featureDurationOptions.js"></script>
+
+<script>
+    Kj.extVars.validationMessages.uploadingImages = {
+        imageResolution: "Upload unsuccessful. Image dimensions limit exceeded.",
+        failed: "Failure occurred",
+        maxNumberReached: "Max Number Reached"
+    };
+    Kj.extVars.imageUploader = {
+        removeText: 'Remove',
+        ajaxImageUrl: '/p-upload-image.html',
+        cancelText: 'Cancel'
+    };
+
+    Kj.extVars.datePicker = {
+        shortMonthNames: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+        oneLetterDays: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+        calendarIcon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAVBAMAAACwDgOmAAAAIVBMVEX///8AAABmZma1s7O0s7MAAGRlXMo1ExfHpb316va0srPd4wI2AAAAZElEQVQI12MgCrClpaUlKSkpCYDYoaGhQVjYTAwGzAwOzAxgNojROQPCdjZ2XlFe3gIT5yxgnwBVj2A7uzhblJc3Q8VZQHqh6lmACMI2cTY2MTZxRtjFglBjALGXURACQGzCAAB6aBUC9Ci6xwAAAABJRU5ErkJggg=='
+    };
+
+    Kj.extVars.featurePricePicker = {
+        daysPhrase: 'days',
+        noOptionsPhrase: "--",
+        
+            'Urgent' :  [
+                    
+                        [8.50, '$8.50']
+                        
+            ],
+            'Top' :  [
+                    
+                        [4.25, '$4.25']
+                        ,
+                        [7.25, '$7.25']
+                        ,
+                        [31.00, '$31.00']
+                        
+            ],
+            'Hpg' :  [
+                    
+                        [25.00, '$25.00']
+                        
+            ],
+            'Hpg' :  [
+                    
+                        [5.00, '$5.00']
+                        
+            ]
+    };
+
+    $(document).ready(function() {
+        Kj.extVars.validationMessages.errorDate = 'Please enter a valid date.';
+        Kj.extVars.validationMessages.errorEventTime = 'The event end time cannot be earlier than the event start time.';
+        Kj.extVars.validationMessages.maxDuration = "The duration cannot be longer than [X] days.";
+        Kj.extVars.validationMessages.errorYoutube = 'You must enter a valid Youtube URL';
+        Kj.extVars.validationMessages.errorWebsite = "Website URL is invalid, please check your input.";
+        Kj.extVars.validationMessages.errorPostalCode = "Please provide a valid Postal Code.";
+        Kj.extVars.validationMessages.errorVIN = "We're sorry, this is not a valid VIN.";
+        Kj.extVars.validationMessages.errorCarproofURL = "We’re sorry, this is not a valid URL.";
+        Kj.extVars.validationMessages.errorVINmismatch = "The VINs you have entered are not all the same.";
+        Kj.extVars.validationMessages.emptyCell = "Please enter information above.";
+        Kj.extVars.validationMessages.noResultsVIN = "No results found. Please check your VIN number.";
+        Kj.extVars.validationMessages.postAdErrors = "Please fix the errors on the page";
+        Kj.extVars.validationMessages.vagueAddress = "Please provide a more accurate address";
+        Kj.extVars.chooseTrim = "Please choose a trim level";
+        Kj.extVars.featureAdded = "You have added this feature.";
+        Kj.extVars.tracking.pageActionTitle = 'Post';
+
+        Kj.extVars.isEdit = false;
+
+        Kj.extVars.vehicleOptions = "VEHICLE OPTIONS:";
+        Kj.extVars.selectOption = "- Select -";
+
+        Kj.Post.initValidateForm({
+            isRealEstate : false,
+            isShoppingCart: false,
+            errorMessage: "",
+            duration: 0
+        });
+
+        Kj.Post.initImageUploader({
+            maxNumberOfImages: 10,
+            hasImages: false,
+            swfUrl: '//ca.classistatic.com/static/V/1696.4/js/lib/plupload/Moxie.cdn.swf',
+            xapUrl:'//ca.classistatic.com/static/V/1696.4/js/lib/plupload/Moxie.cdn.xap'
+        });
+
+        
+
+        Kj.Post.initAddressValidator({
+            field: $('#pstad-map-address'),
+            defaultLatField: $('#pstad-dflt-latitude'),
+            defaultLngField: $('#pstad-dflt-longitude'),
+            latField: $('#pstad-lat'),
+            lngField: $('#pstad-lng'),
+            modal: $('#AddressForm'),
+            addressSuffix: ', Canada'
+            
+        });
+
+        Kj.Post.initLocationTree();
+
+        Kj.Post.initEmailVerification();
+
+        Kj.Post.initDependentAttributes({urlAjaxSelectAttribute: "/p-select-attribute.json"});
+
+        Kj.Post.initPreview({previewUrl: "/p-preview-ad.html"});
+
+        Kj.initToolTips();
+
+        Kj.Forms.initTraits({
+            container: $('#PostAdMainForm')
+        });
+
+        Kj.Forms.initForm({
+            form: $('#PostAdMainForm')
+        });
+
+        Kj.Post.initDatePicker();
+
+        
+
+        Kj.Post.initFeaturePricePicker({
+            featureCatalogueUrl: "/p-feature-catalogue.json"
+        });
+
+        Kj.Post.initInsertionFee({
+            hideInsertionFee: true,
+            categoryId: 109,
+            chargeInsertionFee : false
+        });
+
+        
+
+        Kj.Admin.initTrackPreviewLinks();
+
+        Kj.Admin.Promote.initFeatureRecommendation();
+
+        
+    });
+</script>
+<!-- load templates -->
+<script src="//ca.classistatic.com/static/V/1696.4/js/templates/address-validation/geocodingModalListItem.js" /></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"applicationID":"7099670","applicationTime":22,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"1eb07638cd","transactionName":"ZlYAYBBVWhBQV0QNV18cMUQQXVoEclteEEpeXw5REBtETkFbQxAVUFdMXBZZWEMZc3UwEQ==","agent":"js-agent.newrelic.com\/nr-768.min.js","errorBeacon":"bam.nr-data.net"}</script></body>
+</html>

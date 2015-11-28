@@ -1,0 +1,545 @@
+/**
+* @name generate-centered-widths
+* Generates media queries for centering a certain amount of items by setting the item container's width.
+* Loops through the maxNumberOfItems variable, starting at the increment variable
+*
+* @param maxNumberOfItems {number} max number of items you want to loop through
+* @param itemWidth {px} individual width of each item
+* @param increment {number} increments each loop, used as the start point
+* @param itemContainerPadding {px} the padding of the items container, to be used in the max width
+**/
+/** sprite: sell; sprite-image: url('../img/sprites/sell.png'); sprite-layout: vertical; */
+/** sprite: dealer; sprite-image: url('../img/sprites/dealer.png'); sprite-layout: vertical; */
+/** sprite: buyside; sprite-image: url('../img/sprites/buyside.png'); sprite-layout: vertical; */
+/** sprite: cas; sprite-image: url('../img/sprites/cas.png'); sprite-layout: vertical; */
+/** sprite: common; sprite-image: url('../img/sprites/common.png'); sprite-layout: vertical; */
+.icon-visa {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 32px;
+  height: 20px;
+  background-image: url(../img/sprites/sell/icon-visa-off.png) /** sprite-ref: sell; */;
+}
+.icon-visa.on {
+  background-image: url(../img/sprites/sell/icon-visa-on.png) /** sprite-ref: sell; */;
+}
+.icon-mastercard {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 32px;
+  height: 20px;
+  background-image: url(../img/sprites/sell/icon-mastercard-off.png) /** sprite-ref: sell; */;
+}
+.icon-mastercard.on {
+  background-image: url(../img/sprites/sell/icon-mastercard-on.png) /** sprite-ref: sell; */;
+}
+.sprite-paypal-checkout {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 143px;
+  height: 40px;
+  background-image: url(../img/sprites/sell/btn-paypal-checkout.png) /** sprite-ref: sell; */;
+}
+.fr .sprite-paypal-checkout {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 143px;
+  height: 40px;
+  background-image: url(../img/sprites/sell/btn-paypal-checkout-fr.png) /** sprite-ref: sell; */;
+}
+.icon-edit {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/sprites/sell/icon-edit.png) /** sprite-ref: sell; */;
+}
+.icon-save {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/sprites/sell/icon-save.gif) /** sprite-ref: sell; */;
+}
+.icon-arrow-up {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 11px;
+  height: 14px;
+  background-image: url(../img/sprites/sell/icon-arrow-up.gif) /** sprite-ref: sell; */;
+}
+.icon-srp-logo-example {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(../img/sprites/dealer/srp-logo-example.gif) /** sprite-ref: dealer; */;
+  height: 51px;
+  width: 52px;
+}
+.icon-vip-logo-example {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(../img/sprites/dealer/vip-logo-example.gif) /** sprite-ref: dealer; */;
+  height: 51px;
+  width: 52px;
+}
+.icon-poa-logo-example {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(../img/sprites/dealer/poa-logo-example.gif) /** sprite-ref: dealer; */;
+  height: 51px;
+  width: 52px;
+}
+.icon-storefront-logo-example {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(../img/sprites/dealer/storefront-logo-example.gif) /** sprite-ref: dealer; */;
+  height: 51px;
+  width: 52px;
+}
+.icon-cycle-selector {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(../img/sprites/sell/icon-cycle.png) /** sprite-ref: sell; */;
+  height: 11px;
+  width: 11px;
+}
+.icon-cycle-selector-selected {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(../img/sprites/sell/icon-cycle-selected.png) /** sprite-ref: sell; */;
+  height: 11px;
+  width: 11px;
+}
+.icon-veteranfriendly-logo {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(../img/sprites/common/veteranfriendly.png) /** sprite-ref: common; */;
+  background-size: 11px 18px;
+  height: 18px;
+  width: 11px;
+}
+/**
+* Buyside sprite
+**/
+.icon-money {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(../img/sprites/buyside/money-icon.png) /** sprite-ref: buyside; */;
+  height: 18px;
+  width: 18px;
+}
+/**
+* CAS sprite
+**/
+.icon-left {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(../img/sprites/cas/arrows_left.png) /** sprite-ref: cas; */;
+  height: 37px;
+  width: 32px;
+}
+.icon-right {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(../img/sprites/cas/arrows_right.png) /** sprite-ref: cas; */;
+  height: 37px;
+  width: 32px;
+}
+.promotions {
+  border-collapse: collapse;
+}
+.promotions th {
+  font: 11px/14px Arial, Verdana, sans-serif;
+  background: #f2f2f2;
+  border-bottom: solid 1px #cccccc;
+  color: #333333;
+  font-weight: bold;
+  padding: 8px 0 6px;
+  text-align: left;
+}
+.promotions td {
+  border-bottom: solid 1px #e4e4e4;
+  color: #000000;
+  padding: 8px 0;
+  text-align: left;
+}
+.promotions .left {
+  font-weight: bold;
+  padding-left: 10px;
+  width: 340px;
+}
+.contains-insets .promotions .left {
+  width: 295px;
+}
+.fr .contains-insets .promotions .left {
+  width: 280px;
+}
+.promotions .right {
+  padding-right: 10px;
+  text-align: right;
+  width: 120px;
+}
+.promotions .days {
+  padding-left: 7px;
+}
+.promotions .purchased {
+  color: #999999;
+}
+.promotions .notes {
+  background: #fceb75;
+  border-bottom: solid 1px #cccccc;
+  padding: 3px 10px;
+}
+.promotions a {
+  color: #000066;
+}
+.promotions a:hover {
+  color: #2078ef;
+}
+.promotions select {
+  width: 80px;
+}
+.promotions .tooltip-trigger {
+  float: none;
+}
+.promotions .total td {
+  border-bottom: 0;
+  border-top: solid 1px #cccccc;
+  font-weight: bold;
+  padding: 7px 11px;
+  text-align: right;
+}
+.promotions label {
+  display: block;
+  float: left;
+  margin-top: 4px;
+  padding-top: 2px;
+}
+.promotions input[type=checkbox] {
+  float: left;
+  margin-top: 2px;
+}
+.promote-icon {
+  background-image: url(../img/promote.png);
+  float: left;
+  height: 16px;
+  margin: 0 11px 0 3px;
+  width: 30px;
+}
+.promote-icon.large {
+  float: none;
+  height: 48px;
+  margin: 0;
+  width: 55px;
+}
+.promote-icon.large.bump {
+  background-position: 0 0;
+}
+.promote-icon.large.bump-up {
+  background-position: 0 0;
+}
+.promote-icon.large.high {
+  background-position: -55px 0;
+}
+.promote-icon.large.hpg {
+  background-position: -220px 0;
+}
+.promote-icon.large.top {
+  background-position: -165px 0;
+}
+.promote-icon.large.urgent {
+  background-position: -110px 0;
+}
+.promote-icon.large.quick-connect {
+  background-position: -275px 0;
+}
+.promote-icon.bump {
+  background-position: -330px -32px;
+}
+.promote-icon.bump-up {
+  background-position: -330px -32px;
+}
+.promote-icon.high {
+  background-position: -330px 0;
+}
+.promote-icon.hpg {
+  background-position: -360px -16px;
+}
+.promote-icon.top {
+  background-position: -360px 0;
+}
+.promote-icon.urgent {
+  background-position: -330px -16px;
+}
+.promote-icon.carproof {
+  background-position: -360px -32px;
+}
+.promote-icon.url {
+  background-position: -390px 0;
+}
+.promote-icon.pro-house {
+  background-position: -390px -16px;
+}
+.promote-icon.pro-cars {
+  background-position: -390px -32px;
+}
+.promote-icon.pro-pets {
+  background-position: -420px 0;
+}
+.promote-icon.quick-connect {
+  background-position: -420px -16px;
+}
+.promote-icon.purchased {
+  -moz-opacity: 0.4;
+  -khtml-opacity: 0.4;
+  -webkit-opacity: 0.4;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+.promote-icon-purchased {
+  background-image: url(../img/promote.png);
+  float: left;
+  height: 16px;
+  margin: 0 11px 0 3px;
+  width: 30px;
+  opacity: 0.4;
+}
+.promote-icon-purchased.large {
+  float: none;
+  height: 48px;
+  margin: 0;
+  width: 55px;
+}
+.promote-icon-purchased.large.bump {
+  background-position: 0 0;
+}
+.promote-icon-purchased.large.bump-up {
+  background-position: 0 0;
+}
+.promote-icon-purchased.large.high {
+  background-position: -55px 0;
+}
+.promote-icon-purchased.large.hpg {
+  background-position: -220px 0;
+}
+.promote-icon-purchased.large.top {
+  background-position: -165px 0;
+}
+.promote-icon-purchased.large.urgent {
+  background-position: -110px 0;
+}
+.promote-icon-purchased.large.quick-connect {
+  background-position: -275px 0;
+}
+.promote-icon-purchased.bump {
+  background-position: -330px -32px;
+}
+.promote-icon-purchased.bump-up {
+  background-position: -330px -32px;
+}
+.promote-icon-purchased.high {
+  background-position: -330px 0;
+}
+.promote-icon-purchased.hpg {
+  background-position: -360px -16px;
+}
+.promote-icon-purchased.top {
+  background-position: -360px 0;
+}
+.promote-icon-purchased.urgent {
+  background-position: -330px -16px;
+}
+.promote-icon-purchased.carproof {
+  background-position: -360px -32px;
+}
+.promote-icon-purchased.url {
+  background-position: -390px 0;
+}
+.promote-icon-purchased.pro-house {
+  background-position: -390px -16px;
+}
+.promote-icon-purchased.pro-cars {
+  background-position: -390px -32px;
+}
+.promote-icon-purchased.pro-pets {
+  background-position: -420px 0;
+}
+.promote-icon-purchased.quick-connect {
+  background-position: -420px -16px;
+}
+.promote-icon-purchased.purchased {
+  -moz-opacity: 0.4;
+  -khtml-opacity: 0.4;
+  -webkit-opacity: 0.4;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+.promote-description h2 {
+  margin-top: 0;
+}
+.promote-description ul {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+.promote-description li {
+  float: left;
+  list-style: none;
+  margin: 0 0 0 15px;
+  width: 171px;
+}
+.promote-description li:first-child {
+  margin-left: 0;
+}
+.promote-description li p {
+  margin: 0;
+}
+.promote-description h3 {
+  font: 13px/16px Arial, Verdana, sans-serif;
+  color: #000000;
+  font-weight: bold;
+  margin: 8px 0 4px;
+}
+.promote-description a {
+  color: #000066;
+}
+.promote-description a:hover {
+  color: #2078ef;
+}
+#RecommendedFeatureContainer {
+  position: relative;
+  width: 100%;
+}
+#RecommendedFeatureContainer td {
+  height: 300px;
+  padding: 0 20px 10px;
+  text-align: center;
+}
+#RecommendedFeatureContainer.edit-mode td {
+  height: 290px;
+}
+#RecommendedFeatureContainer .recommended-feature {
+  width: 100%;
+  min-height: 180px;
+}
+#RecommendedFeatureContainer #CtaPrevRecommendedFeature,
+#RecommendedFeatureContainer #CtaNextRecommendedFeature {
+  position: absolute;
+  margin-top: -15px;
+  top: 50%;
+  z-index: 101;
+}
+#RecommendedFeatureContainer #CtaPrevRecommendedFeature {
+  left: 0;
+}
+#RecommendedFeatureContainer #CtaNextRecommendedFeature {
+  right: 0;
+}
+#RecommendedFeatureContainer .cycle-pager {
+  bottom: 10px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+#RecommendedFeatureContainer .cycle-pager span {
+  text-indent: -3333px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(../img/sprites/sell/icon-cycle.png) /** sprite-ref: sell; */;
+  height: 11px;
+  width: 11px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+#RecommendedFeatureContainer .cycle-pager .cycle-pager-active {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(../img/sprites/sell/icon-cycle-selected.png) /** sprite-ref: sell; */;
+  height: 11px;
+  width: 11px;
+}
+#RecommendedFeatureContainer h3 {
+  font: 14px/17px Arial, Verdana, sans-serif;
+  font-weight: bold;
+  margin-top: 0;
+}
+#RecommendedFeatureContainer .promote-icon {
+  margin: 0 auto 15px;
+}
+#RecommendedFeatureContainer a {
+  font: 18px/22px Arial, Verdana, sans-serif;
+  border: none;
+  color: #3b5998;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+  outline: none;
+}
+.fr #RecommendedFeatureContainer a {
+  font: 14px/17px Arial, Verdana, sans-serif;
+  font-weight: bold;
+}
+#RecommendedFeatureContainer p {
+  color: #000000;
+  margin: 0 auto;
+}
+#RecommendedFeatureContainer a,
+#RecommendedFeatureContainer p {
+  max-width: 210px;
+}
+#ItemStatistics {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+#ItemStatistics td {
+  border-bottom: 1px solid #cccccc;
+}
+#ItemStatistics .stat-list {
+  margin: 0;
+}
+#ItemStatistics .stat-list li.first,
+#ItemStatistics .stat-list li,
+#ItemStatistics .stat-list li.last {
+  font: 13px/16px Arial, Verdana, sans-serif;
+  background: none;
+  border: 1px solid #cccccc;
+  border-width: 0 1px;
+  border-radius: 0;
+  border-spacing: 0;
+  padding: 5px 0;
+  width: 33%;
+}
+#ItemStatistics .stat-list li.first,
+#ItemStatistics .stat-list li.last {
+  border: none;
+}
+#ItemStatistics .stat-list strong {
+  display: block;
+}
+.qtip-no-min-width {
+  min-width: 0;
+}
+.qtip-no-min-width .qtip-content {
+  padding-right: 0;
+}
