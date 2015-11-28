@@ -16,7 +16,13 @@ document.getElementById("YoutubeURL"),
 document.getElementById("PhoneNumber"),
 document.getElementById("pstad-email")];
 elem[0].checked = true;
-elem[1].checked = true;
-elem[2].value = 100;
-elem[3].checked = true;
-elem[5].value = "C:\Users\Meshach Jones\Pictures\Proof.png"
+elem[2].checked = true;
+elem[3].value = 100;
+elem[8].checked = true;
+elem[9].selectedIndex = 3;
+elem[10].value = "Cool Books For Sale";
+elem[11].value = "Attempting to sell my PHP book";
+elem[12].value = "148 Paperbirch Cres";
+elem[14].value = "https://www.youtube.com/watch?v=9pillaOxGCo";
+elem[15].value = "222-222-2222";
+elem[16].value = "CoolBooks@gmail.com";
