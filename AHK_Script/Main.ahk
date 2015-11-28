@@ -14,6 +14,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 browser := ComObjCreate("InternetExplorer.Application")
 
 browser.Visible := True
+; browser.Visible := False
 browser.ToolBar := False
 
 
@@ -24,20 +25,14 @@ while browser.ReadyState != 4
 
 browser.document.getElementById("adType1").checked := true
 browser.document.getElementById("priceAmount").value := "100"
+browser.document.getElementById("forsaleby_s").checked := true
+browser.document.getElementById("moreinfo_s").selectedIndex := 1
+browser.document.getElementById("postad-title").value := "Eng Text Book"
 
-
-
-
-; a := browser.document.getElementById("priceAmount").innerText()
-; .value := "100"
-
-
-
+browser.document.getElementById("ImageUploadButton").click()
+; TODO
+; Need to hide img upload from user
+; Need to allow appropriate delay for imgs to load before submitting add
 
 return
 ; end of 'main'
-
-fxn(){
-
-
-}
