@@ -39,11 +39,13 @@ browser.document.getElementById("pstad-email").value := "jzapata110391@live.com"
 ;;;;;;;; TODO
 ;;;;;;;; Need to hide img upload from user
 ;;;;;;;; Need to allow appropriate delay for imgs to load before submitting add
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ; browser.document.getElementById("ImageUploadButton").click()
 ; while browser.ReadyState != 4 
 ; 	Sleep 100
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 browser.document.getElementsByClassName("button-task post-ad-button")[0].click()
 

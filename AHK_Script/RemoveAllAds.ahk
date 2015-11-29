@@ -44,15 +44,11 @@ while browser.ReadyState != 4
 
 ; browser.document.getElementById("DeleteSurveyOK").click()
 
-; <input class="button-task" id="DeleteSurveyOK" type="submit" value="Delete these Ads">
+while browser.ReadyState != 4 
+	Sleep 100
 
-; browser.document.getElementById("CtaDelete").click()
-; browser.document.getElementById("CtaDelete").click()
-
-
-; Dont need, maybe for later?
-; browser.document.getElementById("adType1").checked := true
-; browser.document.getElementsByClassName("button-task post-ad-button")[0].click()
+Sleep 10000			; Dont need. Just for visual to confirm the update happened
+browser.quit()
 
 return
 ; end of 'main'
