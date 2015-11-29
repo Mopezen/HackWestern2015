@@ -31,11 +31,11 @@
 			<label>Ad Type:
 				<div class="form-section">
 					<label>
-						<input id="adType1" name="postAdForm.adType" type="radio" value="OFFER" checked/>I am offering
+						<input id="adType1" name="postAdFormf" type="radio" checked/>I am offering
 							<span class ="ghostText">Select if your selling a book</span>
 					</label><br>
 					<label>
-					<input id="adType2" name="postAdForm.adType" type="radio" value="WANTED"/>I want
+					<input id="adType2" name="postAdFormf" type="radio" />I want
 						<span class="example">Your buying a book?</span>
 					</label>
 				</div>
@@ -46,17 +46,17 @@
 			<label>Price:
 			<div class="form-section">
 				<label>
-					<input id="priceType1" name="postAdForm.priceType1" type="radio" value="USERVALUE" checked/>Set Value:
-					<input id="priceAmount" name="postAdForm.priceAmount" type="text"/>
+					<input id="priceType1" name="postAdFormff" type="radio"  checked/>Set Value:
+					<input id="priceAmount" name="postAdFormp" type="text"/>
 				</label><br>
 				<label>
-					<input id="priceType2" name="postAdForm.priceType1" type="radio" value="FREE"/>Set to free
+					<input id="priceType2" name="postAdFormff" type="radio" />Set to free
 				</label><br>
 				<label>
-					<input id="priceType1" name="postAdForm.priceType1" type="radio" value="CONTACT"/>Set to contact me
+					<input id="priceType1" name="postAdFormff" type="radio" />Set to contact me
 				</label><br>
 				<label>
-					<input id="priceType1" name="postAdForm.priceType1" type="radio" value="SWAP"/>Set to a swap/trade
+					<input id="priceType1" name="postAdFormff" type="radio" />Set to a swap/trade
 				</label>
 			</div>
 			</label>
@@ -66,11 +66,11 @@
 			<label>For Sale By:
 			<div class="form-section">
 				<label>
-					<input id="saleBy" name="postAdForm.saleBy" type="radio" value="OWNER" checked/>Set to owner
+					<input id="saleBy" name="postAdForms" type="radio" checked/>Set to owner
 					<span class="ghostText">You should always use this option</span>
 				</label><br>
 				<label>
-					<input id="saleBy" name="postAdForm.saleBy" type="radio" value="BIZ"/>Set to business
+					<input id="saleBy" name="postAdForms" type="radio" />Set to business
 				</label>
 			</div>
 			</label>
@@ -85,12 +85,18 @@
 			</div>
 			</label>
 		<div>
+		<div>
+			<br/>
+			<a name="postAdForm.mapAddress"></a>
+                            <label for="pstad-map-address" class="add-asterisk">Title:</label>
+                                <input name="postAdForm" type="title"/>
+		<div>
        
 	    <div>
 			<br/>
 			<a name="postAdForm.description"></a>
 			 <label for="pstad-descrptn" class="add-asterisk">Description:</label>
-			 <br/><textarea id="pstad-descrptn" name="postAdForm.description" spellcheck="true" maxlength="61000" data-minlength="10" req="req"></textarea><span class="field-message" data-for="pstad-descrptn"></span>
+			 <br/><textarea id="pstad-descrptn" name="postAdFormd" spellcheck="true" ></textarea><span class="field-message" data-for="pstad-descrptn"></span>
 		<div>
 		
 		<div>
@@ -106,14 +112,14 @@
 			<label>Images:</label>
                     <button id="ImageUploadButton" type="button" class="button-update-cancel short file-upload-button ">
                                 Select Images</button>
-                            <input type="hidden" name="file" id="FileUploadInput" >
+                            <input type="hidden" name="file0" id="FileUploadInput" >
                         <span class="field-message" data-for="FileUploadInput"></span>
 		<div>
 		
 		<div>
 			<br/>
 			<label for="YoutubeURL">YouTube Video:</label>
-					<input id="YoutubeURL" name="postAdForm.youtubeVideoURL" type="text" value=""/><span class="field-message" data-for="YoutubeURL"></span>
+					<input id="YoutubeURL" name="postAdFormy" type="text" /><span class="field-message" data-for="YoutubeURL"></span>
 					<p class="message"><span class ="ghostText">Add a YouTube video to your ad.</span></p>
 					<p class="example">Example: http://www.youtube.com/watch?v=&lt;your video id&gt;</p>
 		
@@ -122,12 +128,12 @@
 		<div>
 			<br/>
 		<label for="postAdForm.phoneNumber">Phone Number:</label>
-                    <input id="PhoneNumber" name="postAdForm.phoneNumber type="text" maxlength="40"/><p class="message"><span class ="ghostText">Your phone number will show up on your Ad.</span></p>
+                    <input id="PhoneNumber" name="postAdForp" type="text" /><p class="message"><span class ="ghostText">Your phone number will show up on your Ad.</span></p>
                     <span class="field-message" data-for="PhoneNumber"></span>
         <div> 
             <a id="email" name="postAdForm.email"></a>
 			<br/><label for="pstad-email" class="add-asterisk">Email:</label>
-					<input id="pstad-email" name="postAdForm.email" x-autocompletetype="email" data-type="email" req="req" type="text" value=""/><span class="field-message" data-for="pstad-email"></span>
+					<input id="pstad-email" name="postAdForme" x-autocompletetype="email" data-type="email" req="req" type="text" /><span class="field-message" data-for="pstad-email"></span>
 					<p class="message"><span class ="ghostText">Your email address will not be shared with others.</span></p>
 		<div>	
 			
