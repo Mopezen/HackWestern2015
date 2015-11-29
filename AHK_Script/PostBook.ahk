@@ -24,22 +24,34 @@ while browser.ReadyState != 4
 	Sleep 100
 
 browser.document.getElementById("adType1").checked := true
-browser.document.getElementById("priceAmount").value := "100"
+browser.document.getElementById("priceAmount").value := "120"
 browser.document.getElementById("forsaleby_s").checked := true
 browser.document.getElementById("moreinfo_s").selectedIndex := 1
-browser.document.getElementById("postad-title").value := "Eng Text Book"
+browser.document.getElementById("postad-title").value := "Database Systems: A Practical Appr...& Management 6th Ed- SE3309"
 
-; TODO
-; Need to hide img upload from user
-; Need to allow appropriate delay for imgs to load before submitting add
-; browser.document.getElementById("ImageUploadButton").click()
+browser.document.getElementById("pstad-descrptn").value := "This textbook is used for the Third Year Engineering Program Database Management System course at UWO for Software Engineers. `n `nThe exam is open textbook, making this textbook a great advantage. `n `nISBN-10: 0132943263 `nISBN-13: 978-0132943260 `n `nMinor folding damage shown in pictures. `n `nFor more details feel free to text or call `n519-854-1346 "
 
-browser.document.getElementById("pstad-descrptn").value := "First year calculus text book"
 browser.document.getElementById("pstad-map-address").value := "N6G-0K2"
 browser.document.getElementById("PhoneNumber").value := "519-854-1346"
 browser.document.getElementById("pstad-email").value := "jzapata110391@live.com"
 
-; browser.document.getElementsByClassName("button-task post-ad-button")[0].click()
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;; TODO
+;;;;;;;; Need to hide img upload from user
+;;;;;;;; Need to allow appropriate delay for imgs to load before submitting add
+; browser.document.getElementById("ImageUploadButton").click()
+; while browser.ReadyState != 4 
+; 	Sleep 100
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+browser.document.getElementsByClassName("button-task post-ad-button")[0].click()
+
+while browser.ReadyState != 4 
+	Sleep 100
+
+Sleep 10000
+browser.quit()
 
 return
 ; end of 'main'

@@ -18,26 +18,37 @@ browser.Visible := True
 browser.ToolBar := False
 
 
-browser.navigate("https://www.kijiji.ca/m-my-ads.html?uli=true#/PENDING#PENDING")
+; browser.navigate("https://www.kijiji.ca/m-my-ads.html?uli=true#/PENDING#PENDING")		;testing. Not used in final version
+browser.navigate("https://www.kijiji.ca/m-my-ads.html?uli=true")
 
 while browser.ReadyState != 4 
 	Sleep 100
 
-
-; browser.document.getElementsByClassName("check-ad ng-pristine ng-valid")[0].checked := true
 ad_chkBx := browser.document.getElementsByClassName("check-ad ng-pristine ng-valid")
-; ad_chkBx[0].checked := true
-; ad_chkBx[1].checked := true
 
-; TODO make work
-sz := browser.do/*cument.getElementsByClassName("check-ad ng-pristine ng-valid").length
-cnt := 0
-loop,(browser.document.getElementsByClassName("check-ad ng-pristine ng-valid")).length{
-	ad_chkBx[cnt].checked := true
-	cnt+=1
+while browser.ReadyState != 4 
+	Sleep 1000
+
+sz := ad_chkBx.length
+loop,%sz%{
+	ad_chkBx[0].click()
 }
 
-MsgBox % "Holdin*/g: "+cnt
+while browser.ReadyState != 4 
+	Sleep 100
+
+browser.document.getElementById("CtaDelete").click()
+
+while browser.ReadyState != 4 
+	Sleep 100
+
+; browser.document.getElementById("DeleteSurveyOK").click()
+
+; <input class="button-task" id="DeleteSurveyOK" type="submit" value="Delete these Ads">
+
+; browser.document.getElementById("CtaDelete").click()
+; browser.document.getElementById("CtaDelete").click()
+
 
 ; Dont need, maybe for later?
 ; browser.document.getElementById("adType1").checked := true
