@@ -18,37 +18,23 @@ browser.Visible := True
 browser.ToolBar := False
 
 
-; browser.navigate("https://www.kijiji.ca/m-my-ads.html?uli=true#/PENDING#PENDING")		;testing. Not used in final version
-browser.navigate("https://www.kijiji.ca/m-my-ads.html?uli=true")
+browser.navigate("https://www.kijiji.ca/t-login.html")
 
 while browser.ReadyState != 4 
 	Sleep 100
 
-ad_chkBx := browser.document.getElementsByClassName("check-ad ng-pristine ng-valid")
 
-while browser.ReadyState != 4 
-	Sleep 1000
-
-sz := ad_chkBx.length
-loop,%sz%{
-	ad_chkBx[0].click()
-}
+browser.document.getElementById("LoginEmailOrNickname").value := "myEmail@domain.com"
+browser.document.getElementById("login-password").value := "kijiji_pw"
 
 while browser.ReadyState != 4 
 	Sleep 100
 
-browser.document.getElementById("CtaDelete").click()
+browser.document.getElementById("SignInButton").click()
+; browser.document.form.Submit()
 
 while browser.ReadyState != 4 
 	Sleep 100
-
-; browser.document.getElementById("DeleteSurveyOK").click()
-
-while browser.ReadyState != 4 
-	Sleep 100
-
-Sleep 10000			; Dont need. Just for visual to confirm the update happened
-browser.quit()
 
 return
 ; end of 'main'
